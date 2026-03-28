@@ -35,6 +35,24 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="chat"
+        options={{
+          title: "Chat",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="message.fill" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="mural"
+        options={{
+          title: "Mural",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="photo.fill" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

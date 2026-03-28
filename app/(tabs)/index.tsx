@@ -68,7 +68,9 @@ export default function HomeScreen() {
         </Link>
 
         <ThemedText>
-          {`El fandom se llama BLINK 💕\nNo generar peleas innecesarias\nDefender con respeto\nApoyar a las chicas individualmente y como grupo\n👉 Regla: fan fiel pero sin toxicidad.`}{" "}
+          El fandom se llama BLINK 💕\nNo generar peleas innecesarias\nDefender
+          con respeto\nApoyar a las chicas individualmente y como grupo\n👉
+          Regla: fan fiel pero sin toxicidad.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
